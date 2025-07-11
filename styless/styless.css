@@ -297,16 +297,16 @@ body, html {
   font-size: 97px;
   font-weight: bold;
   color: #000;
-  width: 520px;
+  width: 420px;
   height: 272px;
-   margin-left: 400px;
+   margin-left: 350px;
 }
 
 .touch-form {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
  
   margin-right:300px;
 }
