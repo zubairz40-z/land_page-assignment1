@@ -115,10 +115,10 @@ body, html {
 .action-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  justify-content: center;   
+  gap: 30px;                 
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;            
 }
 
 .action-text {
@@ -151,7 +151,7 @@ body, html {
 .action-image {
   max-width: 500px;
   border-radius: 20px;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 /*User styles*/
@@ -258,6 +258,7 @@ body, html {
 .review-title{
  font-weight: bold;
  font-size: 24px;
+ color:    #252432;
 }
 .review-description{
     color:  rgba(37, 36, 50, 0.5);
@@ -285,36 +286,35 @@ body, html {
 /*Touch Section*/
 .touch {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;       /* center the content */
   align-items: flex-start;
   background-color: #f5f7ff;
   padding: 80px 50px;
-  gap: 25px;
+  gap: 100px;                     /* control space between title & form */
   flex-wrap: wrap;
 }
 
 .touch-title h1 {
-  font-size: 97px;
+  font-size: 70px;                /* still big, but not overwhelming */
   font-weight: bold;
-  color: #000;
+  color:  #252432;
   width: 420px;
-  height: 272px;
-   margin-left: 380px;
+  height: auto;
+  margin: 0;                      /* removed huge margin-left */
 }
 
 .touch-form {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 400px;
- 
-  margin-right:380px;
+  gap: 0px;
+  margin: 0;                      
 }
-
 .touch-form h3 {
   font-size: 16px;
-  margin-bottom: 8px;
-  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  color:   #252432;
 }
 
 .touch-form input,
